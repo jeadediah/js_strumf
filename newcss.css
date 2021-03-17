@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+div.wrap{
+    width: 600px;
+    height: 350px;
+    margin: 50px auto;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.smurf{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #3483eb;
+    float: left;
+}
+
+.bigSmurf{
+    width: 50px;
+    height: 50px;
+    border: 2px solid aqua;
+    background-color: #c91417;
+    float: left;
+}
+
+.infoAbout{
+    width: 150px;
+    height: 100px;
+    background-color: buttonface;
+    color: blue;
+    size: 20px;
+}
